@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/var.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
+</head>
+<body id="main">
+    <input id="close-menu" class="close-menu" type="checkbox">
+    <label class="close-menu-label" for="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a onclick="getElementById('close-menu').checked = false;" href="#main">home</a>
+            </h1>
+
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li> <a href="#main">intro</a></li>
+                    <li> <a href="#lorem">lorem</a></li>
+                    <li> <a href="#main">gallery</a></li>
+                    <li> <a href="#lorem">work</a></li>
+                    <li> <a href="#main">contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January brings us Firefox 85</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate similique porro amet harum quaerat maiores, totam nesciunt tempora obcaecati voluptatem sapiente culpa libero hic nostrum. Dolor unde alias officia aliquid?</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/undraw_static_assets_rpm6.svg">
+            </div>
+        </div>
+    </section>
+
+    <section id="lorem" class="white-bg section">
+        <div class="main-content lorem-content">
+            <h2>lorem</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor officia dolore itaque expedita! Aspernatur, aut inventore quidem ratione voluptatum ut, mollitia non accusantium iure, libero architecto placeat nam nisi harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti facilis neque doloribus voluptate, repudiandae consequuntur, sed excepturi fuga aut impedit a, quasi at esse explicabo pariatur maiores quia deserunt. Repudiandae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi beatae quidem reiciendis distinctio ipsa quaerat asperiores dignissimos ea rem, quam culpa placeat, omnis obcaecati, voluptatum in molestiae possimus eligendi dolorem?</p>
+        </div>
+    </section>
+</body>
+</html>
